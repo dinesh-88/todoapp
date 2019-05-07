@@ -10,7 +10,7 @@ function addToList(targetUl) {
     var li = document.createElement('li');
     var textNode = document.createTextNode(inputText + ' ');
     var done = document.createElement('input');
-    done.type = 'checkbox d';
+    done.type = 'checkbox f';
     document.getElementById('new-todo').value = '';
 
     if (inputText.split(' ').join('').length === 0) {
